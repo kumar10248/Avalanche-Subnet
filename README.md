@@ -1,8 +1,8 @@
-kumar10248: @workspace  generate readme.md file
+kumar10248: @workspace generate readme.md file
 
-Workspace: To create a [`README.md`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\kumar\Contacts\Desktop\Avalanche-Subnet\README.md") file for your project that includes the [`Vault.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FVault.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\kumar\Contacts\Desktop\Avalanche-Subnet\Vault.sol") and [`ERC20.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FERC20.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\kumar\Contacts\Desktop\Avalanche-Subnet\ERC20.sol") contracts, you might consider the following template. This template provides a brief introduction to your project, explains how to set up the environment, and outlines the functionality of both contracts. You can adjust the content to better fit your project's specifics.
+Workspace: To create a [`README.md`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\Users\kumar\Contacts\Desktop\Avalanche-Subnet\README.md") file for your project that includes the [`Vault.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FVault.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\Users\kumar\Contacts\Desktop\Avalanche-Subnet\Vault.sol") and [`ERC20.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FERC20.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\Users\kumar\Contacts\Desktop\Avalanche-Subnet\ERC20.sol") contracts, you might consider the following template. This template provides a brief introduction to your project, explains how to set up the environment, and outlines the functionality of both contracts. You can adjust the content to better fit your project's specifics.
 
-```markdown
+````markdown
 # Avalanche Subnet ERC20 and Vault Project
 
 This project includes an implementation of an ERC20 token and a Vault contract on the Avalanche Subnet. The ERC20 contract provides a basic template for creating a fungible token, while the Vault contract interacts with ERC20 tokens, providing additional functionalities.
@@ -27,6 +27,7 @@ A step by step series of examples that tell you how to get a development environ
 ```sh
 npm install
 ```
+````
 
 3. Compile the smart contracts:
 
@@ -54,7 +55,7 @@ npx hardhat run scripts/deploy.js --network localhost
 
 ## ERC20 Contract
 
-The [`ERC20.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FERC20.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\kumar\Contacts\Desktop\Avalanche-Subnet\ERC20.sol") contract is a standard implementation of an ERC20 token. It includes basic functionalities such as transfer, approve, and allowance mechanisms. Additionally, it provides mint and burn functions for token supply management.
+The [`ERC20.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FERC20.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\Users\kumar\Contacts\Desktop\Avalanche-Subnet\ERC20.sol") contract is a standard implementation of an ERC20 token. It includes basic functionalities such as transfer, approve, and allowance mechanisms. Additionally, it provides mint and burn functions for token supply management.
 
 - **Contract Name:** Solidity by Example
 - **Symbol:** SOLBYEX
@@ -62,7 +63,7 @@ The [`ERC20.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A
 
 ## Vault Contract
 
-The [`Vault.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FVault.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\kumar\Contacts\Desktop\Avalanche-Subnet\Vault.sol") contract is designed to interact with ERC20 tokens. It provides a template for more complex functionalities that can be built on top of the ERC20 standard.
+The [`Vault.sol`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FVault.sol%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\Users\kumar\Contacts\Desktop\Avalanche-Subnet\Vault.sol") contract is designed to interact with ERC20 tokens. It provides a template for more complex functionalities that can be built on top of the ERC20 standard.
 
 - **Key Functions:**
   - [`totalSupply()`](command:_github.copilot.openSymbolFromReferences?%5B%7B%22%24mid%22%3A1%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FAvalanche-Subnet%2FVault.sol%22%2C%22scheme%22%3A%22file%22%7D%2C%7B%22line%22%3A4%2C%22character%22%3A13%7D%5D "Vault.sol"): View the total supply of the tokens in the vault.
@@ -78,6 +79,8 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
 ```
 
 This template is a starting point. Be sure to customize it with any additional details specific to your project, such as how to run tests, project structure, and contact information for contributions.
+```
