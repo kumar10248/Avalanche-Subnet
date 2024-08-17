@@ -35,28 +35,13 @@ Created  my own subnet .
 
 OUTPUT AFTER SUCCESSFUL DEPLOYING OF THE SUBNET
 
+![1f7c0ac1-aa3a-41b6-8cf2-181781670b16](https://github.com/user-attachments/assets/7bcfc42f-2f26-4608-9c69-347e880cad9e)
+
+![40fb4ae8-c2ac-4d04-98e5-91900e7a3aba](https://github.com/user-attachments/assets/b4762320-92f9-42a0-94a3-097a17335130)
 
 
 
-- Complete Wallet Information
-  
 
-- Tokens funded showcasing in the DevashishSubnet
-  
-
-
-- Showing the address of the added subnet(DevashishSubnet) for verification
-  
-
-
-### Program on which i have used up own subnet for deploying and performing the transactions
-
-- OUTPUT
-  
-
-
-- Transactions Confirmation from the own subnet
-  
 
 
 ## Authors
