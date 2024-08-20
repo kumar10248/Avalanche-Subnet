@@ -3,7 +3,7 @@ pragma solidity ^0.8.10;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract Erc20 is ERC20 {
+contract CustomSubnet is ERC20 {
     address private organizer;
     uint256 private totalDonations;
 
