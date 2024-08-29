@@ -1,31 +1,11 @@
-```markdown
-# Avalanche Subnets 
-
-The Avalanche Subnet allows you to create customized, independent blockchains tailored to specific use cases. These subnets can have their own rules, consensus mechanisms, and virtual machines. They operate separately from the main Avalanche network but can still communicate with it and other subnets. Subnets enhance scalability by reducing congestion on the main network. You can choose between permissioned and permissionless setups for your subnet.
-
-## Description
-
-### Project requirements
-- Deploy your EVM subnet using the Avalanche CLI
-- Add your Subnet to Metamask
-- Make sure it is your selected network in Metamask
-- Connect Remix to your Metamask
-- Use the Injected Provider
-- Deploy the smart-contracts
-- Test your application!
-
-Using Remix to interact with your deployed smart-contracts, deploy tokens, pools, and more.
-
-![73f255ec-83ee-4244-a2aa-022a783cb1d3](https://github.com/user-attachments/assets/c119e47c-a7ff-45c1-966a-834db093ab78)
-
 # Creating EVM subnet with Ava Labs
 
 - Created my own (custom) Subnet using the Avalanche-Cli.
 
 ## Steps to Follow
 
-- avalanche subnet create mortalSubnet (chain ID : 10284) (Token Symbol : MLG)
-- avalanche subnet deploy mortalSubnet
+- avalanche subnet create prinsusubnetubnet (chain ID : 10248) (Token Symbol : DEV)
+- avalanche subnet deploy prinsusubnetubnet
 - Importing the account & Copying the private key in the metamask.
 - Adding the network through RPC URL and chain ID
 - Interacting with the game using the REMIX IDE
@@ -35,11 +15,7 @@ Using Remix to interact with your deployed smart-contracts, deploy tokens, pools
 ![image](https://github.com/user-attachments/assets/c669358c-1185-4c2f-8639-b4108bcff1fa)
 ![image](https://github.com/user-attachments/assets/92bed31c-d023-4bbb-a6d8-3e2ed6b51be0)
 
-
-
-I successfully created my own Avalanche subnet, named DevashishSubnet, using Ubuntu. After setting it up, I deployed the subnet and obtained the account address along with some tokens. Next, I added the subnet to Metamask by entering the RPC URL, chain ID, and token name. I imported my funded account into Metamask and ensured it was selected as the active network. Then, I connected Remix to my Metamask wallet using the Injected Provider. This allowed me to deploy smart contracts directly onto my subnet. I successfully deployed one contract and began testing my application. Using Remix, I interacted with my deployed smart contracts and explored deploying tokens, pools, and other functionalities.
-
-## Smart Contracts
+I successfully created my own Avalanche subnet, named prinsusubnet, using Ubuntu. After setting it up, I deployed the subnet and obtained the account address along with some tokens. Next, I added the subnet to Metamask by entering the RPC URL, chain ID, and token name. I imported my funded account into Metamask and ensured it was selected as the active network. Then, I connected Remix to my Metamask wallet using the Injected Provider. This allowed me to deploy smart contracts directly onto my subnet. I successfully deployed one contract and began testing my application. Using Remix, I interacted with my deployed smart contracts and explored deploying tokens, pools, and other functionalities.
 
 ## Video Explanation of Project
 https://www.loom.com/share/af2ba63c275e4ea297f0f67501d24ab9?sid=0381396a-434a-49c6-94aa-8811ec6b6b44
@@ -74,4 +50,11 @@ email - kumardevashish000@gmail.com
 ## License
 
 This project is licensed under the MIT License.
+```
+
+
+
+
+
+
 ```
