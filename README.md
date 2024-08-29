@@ -14,7 +14,8 @@
 ![Screenshot_20240829_163126](https://github.com/user-attachments/assets/c9a839a7-7749-4ac9-bc5a-17b66e0fd435)
 
 
-<img width="354" alt="image" src="https://github.com/PradeepSahhu/CustomSubnet/assets/94203408/030b353b-e3af-4215-9ecd-edf6908d3755">
+![image](https://github.com/user-attachments/assets/92bed31c-d023-4bbb-a6d8-3e2ed6b51be0)
+
 
 ## Objective
 
